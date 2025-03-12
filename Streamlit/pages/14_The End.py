@@ -23,5 +23,5 @@ with col2:
 # third column
 with col3:
     if st.button("Thank you!"):
-        st.audio("sound/indy_motif.mp3", , autoplay=True) # Trigger the audio
+        st.audio("sound/indy_motif.mp3", autoplay=True) # Trigger the audio
         st.balloons()
